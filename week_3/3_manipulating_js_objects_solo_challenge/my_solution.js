@@ -11,8 +11,9 @@ var terah = {
   weight: 130,
   hairColor: "brown",
   eyeColor: "brown"
+
 }
-/* Pseudocode Section - write pseudocode for each challenge below.
+/*Pseudocode Section - write pseudocode for each challenge below.
 1. Define a variable adam and use object literal notation to assign this variable 
    the value of a JavaScript Object object with no properties.
 
@@ -45,11 +46,22 @@ var terah = {
 
 // __________________________________________
 // Write your code below.
+var adam ={
+  name: "Adam",
+  spouse: terah,
+  children: terah.children,
 
-
-
-
-
+}
+var terah = {
+    name: "Terah",
+    age: 32,
+    height: 66,
+    weight: 125,
+    hairColor: "brown",
+    spouse: adam,
+    children: ["Carson", "Carter", "Colton"],
+  }
+ 
 
 
 
